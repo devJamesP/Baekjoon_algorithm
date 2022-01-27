@@ -1,0 +1,9 @@
+﻿        static void Main(string[] args)
+        {
+            StreamReader sr = new StreamReader(Console.OpenStandardInput());
+            StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
+
+            sw.Flush();
+            sr.Close();
+            sw.Close();
+        }
