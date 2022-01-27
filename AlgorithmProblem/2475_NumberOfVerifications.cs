@@ -5,7 +5,7 @@ namespace AlgorithmProblem
 {
     class _2475_NumberOfVerifications
     {
-        static void Main(string[] args)
+        static void Problem_2475()
         {
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
