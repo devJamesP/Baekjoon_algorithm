@@ -5,8 +5,7 @@ namespace baekjoon
 {
     class _1018_ChessBoard_Redraw
     {
-        static void Main(string[] args)
-        {
+        static void Problem_1018() { 
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
 
