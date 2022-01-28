@@ -6,7 +6,7 @@ namespace AlgorithmProblem
 {
     class _1181_Word_Sort
     {
-        static void Problem_1181() { 
+        static void Problem_1181()
         {
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
