@@ -46,6 +46,7 @@
     <Compile Include="1018_ChessBoard_Redraw.cs" />
     <Compile Include="1181_Word_Sort.cs" />
     <Compile Include="1259_Pelindrome.cs" />
+    <Compile Include="2475_Binomial Coefficient.cs" />
     <Compile Include="2475_NumberOfVerifications.cs" />
     <Compile Include="2920_Scale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
