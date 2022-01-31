@@ -5,7 +5,7 @@ namespace AlgorithmProblem
 {
     class _15829_Hashing
     {
-        static void Main(string[] args)
+        static void Problem_15829()
         {
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
