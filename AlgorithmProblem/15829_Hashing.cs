@@ -5,31 +5,31 @@ namespace AlgorithmProblem
 {
     class _15829_Hashing
     {
-        static void Problem_15829()
+        static void Main(string[] args)
         {
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
 
             int nLength = int.Parse(sr.ReadLine());
             string strInput = sr.ReadLine();
+            ulong M = 1234567891;
 
-            int nResult = outputHashOfAlphabet(nLength, strInput);
-            sw.WriteLine(nResult );
+            ulong nResult = outputHashOfAlphabet(nLength, strInput) % M;
+            sw.WriteLine(nResult);
 
             sw.Flush();
             sr.Close();
             sw.Close();
         }
 
-        static int outputHashOfAlphabet(int nLength, string strInput)
+        static ulong outputHashOfAlphabet(int nLength, string strInput)
         {
-            int sum = 0;
+            ulong sum = 0;
             int r = 31;
-            int M = 1234567891;
 
             for (int i = 0; i < nLength; ++i)
             {
-                sum += (int)(strInput[i] - 'a' + 1) * (int)Math.Pow(r, i) % M;
+                sum += (ulong)(strInput[i] - 'a' + 1) * (ulong)Math.Pow(r, i);
             }
             return sum;
         }
