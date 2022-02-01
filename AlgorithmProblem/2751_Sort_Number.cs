@@ -5,6 +5,21 @@ namespace AlgorithmProblem
 {
     class _2751_Sort_Number
     {
+        struct SNumber
+        {
+            bool bMinus;
+            public bool BMinus
+            {
+                get { return bMinus; }
+                set { bMinus = value; }
+            }
+            bool bPlus;
+            public bool BPlus
+            {
+                get { return bPlus; }
+                set { bPlus = value; }
+            }
+        }
         static void Problem_2751()
         {
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
@@ -12,68 +27,42 @@ namespace AlgorithmProblem
 
             int nTestCase = int.Parse(sr.ReadLine());
 
-            int[] nNumbers = new int[nTestCase];
+            SNumber[] sNumbers = new SNumber[1000001];
 
             // input
             for (int i = 0; i < nTestCase; ++i)
             {
-                nNumbers[i] = int.Parse(sr.ReadLine());
+                int ndx = int.Parse(sr.ReadLine());
+                if (ndx < 0)
+                {
+                    sNumbers[ndx * -1].BMinus = true;
+                }
+                else
+                {
+                    sNumbers[ndx].BPlus = true;
+                }
             }
 
-            // sort
-            SortOfNumber(nNumbers, 0, nTestCase - 1);
-
             // output
-            for (int i = 0; i < nTestCase; ++i)
+            for(int i = 0; i < sNumbers.Length; ++i)
             {
-                sw.WriteLine(nNumbers[i]);
+                int ndx = sNumbers.Length - i - 1;
+                if (sNumbers[ndx].BMinus == true)
+                {
+                    sw.WriteLine(ndx * -1);
+                }
+            }
+            for (int i = 0; i < sNumbers.Length; ++i)
+            {
+                if (sNumbers[i].BPlus == true)
+                {
+                    sw.WriteLine(i);
+                }
             }
 
             sw.Flush();
             sr.Close();
             sw.Close();
-        }
-
-        // 퀵 정렬
-        static void SortOfNumber(int[] nNumbers, int start, int end)
-        {
-            if (start >= end)
-            {
-                return;
-            }
-
-            int pivot = partition(nNumbers, start, end);
-
-            SortOfNumber(nNumbers, start, pivot - 1);
-            SortOfNumber(nNumbers, pivot + 1, end);
-        }
-
-        static int partition(int[] nNumbers, int start, int end)
-        {
-            int pivot = nNumbers[end];
-
-            int i = start - 1;
-
-            for(int j = start; j < end; ++j)
-            {
-                if (nNumbers[j] < pivot)
-                {
-                    ++i;
-                    swap(nNumbers, i, j);
-                }
-            }
-
-            int pivotPosition = i + 1;
-            swap(nNumbers, pivotPosition, end);
-
-            return pivotPosition;
-        }
-
-        static void swap(int[] nNumbers, int a, int b)
-        {
-            int temp = nNumbers[a];
-            nNumbers[a] = nNumbers[b];
-            nNumbers[b] = temp;
         }
     }
 }

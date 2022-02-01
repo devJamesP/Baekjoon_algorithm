@@ -10,9 +10,6 @@ namespace AlgorithmProblem
             StreamReader sr = new StreamReader(Console.OpenStandardInput());
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
 
-            string strAscending = "12345678";
-            string strDescending = "87654321";
-
             string strOutput = "mixed";
             string[] strInputScaleArr = sr.ReadLine().Split(' ');
 
