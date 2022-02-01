@@ -50,6 +50,7 @@
     <Compile Include="15829_Hashing.cs" />
     <Compile Include="2475_Binomial Coefficient.cs" />
     <Compile Include="2475_NumberOfVerifications.cs" />
+    <Compile Include="2609_Common_Factor_And_Multiple.cs" />
     <Compile Include="2920_Scale.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
