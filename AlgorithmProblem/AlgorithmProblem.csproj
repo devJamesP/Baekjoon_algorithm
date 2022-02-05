@@ -47,6 +47,7 @@
     <Compile Include="10814_Sort_By_Age.cs" />
     <Compile Include="10816_Number_Card_2.cs" />
     <Compile Include="10828_Stack.cs" />
+    <Compile Include="10845_Queue.cs" />
     <Compile Include="11650_Aligning_Coordinates.cs" />
     <Compile Include="1181_Word_Sort.cs" />
     <Compile Include="1259_Pelindrome.cs" />
