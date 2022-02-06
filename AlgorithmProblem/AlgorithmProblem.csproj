@@ -49,6 +49,7 @@
     <Compile Include="10828_Stack.cs" />
     <Compile Include="10845_Queue.cs" />
     <Compile Include="10866_Deck.cs" />
+    <Compile Include="10989_SortOfNumber.cs" />
     <Compile Include="11650_Aligning_Coordinates.cs" />
     <Compile Include="1181_Word_Sort.cs" />
     <Compile Include="11866_Josephus.cs" />
