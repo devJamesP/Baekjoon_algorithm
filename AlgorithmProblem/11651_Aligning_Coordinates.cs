@@ -4,7 +4,7 @@ namespace AlgorithmProblem
 {
     class _11651_Aligning_Coordinates
     {
-        static void Main(string[] args)
+        static void Problem_11651(string[] args)
         {
             StreamReader sr = new StreamReader(new BufferedStream(Console.OpenStandardInput()));
             StreamWriter sw = new StreamWriter(new BufferedStream(Console.OpenStandardOutput()));
