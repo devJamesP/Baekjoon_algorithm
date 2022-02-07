@@ -54,6 +54,7 @@
     <Compile Include="1181_Word_Sort.cs" />
     <Compile Include="11866_Josephus.cs" />
     <Compile Include="1259_Pelindrome.cs" />
+    <Compile Include="1436_Film_Director.cs" />
     <Compile Include="15829_Hashing.cs" />
     <Compile Include="1920_Find_number.cs" />
     <Compile Include="2164_Card2.cs" />
