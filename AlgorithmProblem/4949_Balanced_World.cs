@@ -5,7 +5,7 @@ namespace AlgorithmProblem
 {
     class _4949_Balanced_World
     {
-        static void Main(string[] args)
+        static void Problem_4949()
         {
             StreamReader sr = new StreamReader(new BufferedStream(Console.OpenStandardInput()));
             StreamWriter sw = new StreamWriter(new BufferedStream(Console.OpenStandardOutput()));
