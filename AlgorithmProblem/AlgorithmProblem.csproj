@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1018_ChessBoard_Redraw.cs" />
+    <Compile Include="10773_Zero.cs" />
     <Compile Include="10814_Sort_By_Age.cs" />
     <Compile Include="10816_Number_Card_2.cs" />
     <Compile Include="10828_Stack.cs" />
