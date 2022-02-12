@@ -61,6 +61,7 @@
     <Compile Include="1654_Cutting_LAN_Line.cs" />
     <Compile Include="1874_Stack_Sequence.cs" />
     <Compile Include="1920_Find_number.cs" />
+    <Compile Include="1966_Printer_Queue.cs" />
     <Compile Include="2108_Statistics.cs" />
     <Compile Include="2164_Card2.cs" />
     <Compile Include="2475_Binomial Coefficient.cs" />
