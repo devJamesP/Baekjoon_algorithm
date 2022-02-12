@@ -59,6 +59,7 @@
     <Compile Include="1436_Movie_Director.cs" />
     <Compile Include="15829_Hashing.cs" />
     <Compile Include="1654_Cutting_LAN_Line.cs" />
+    <Compile Include="1874_Stack_Sequence.cs" />
     <Compile Include="1920_Find_number.cs" />
     <Compile Include="2108_Statistics.cs" />
     <Compile Include="2164_Card2.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="2920_Scale.cs" />
     <Compile Include="4949_Balanced_World.cs" />
     <Compile Include="9012_Parenthesis String.cs" />
+    <Compile Include="DFS_Algorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
