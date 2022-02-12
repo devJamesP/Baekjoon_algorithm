@@ -6,14 +6,13 @@ namespace AlgorithmProblem
 {
     class DFS_Algorithm
     {
-
         static void Main(string[] args)
         {
             StreamReader sr = new StreamReader(new BufferedStream(Console.OpenStandardInput()));
             StreamWriter sw = new StreamWriter(new BufferedStream(Console.OpenStandardOutput()));
 
             bool[] visited = new bool[8];
-
+            char[,] chOpArr = new char[(int)Math.Pow(2, 2), 2];
             List<int>[] graph = new List<int>[8];
             for (int i = 0; i < graph.Length; ++i)
             {
