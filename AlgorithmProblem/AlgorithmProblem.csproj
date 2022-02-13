@@ -68,9 +68,11 @@
     <Compile Include="2475_NumberOfVerifications.cs" />
     <Compile Include="2609_Common_Factor_And_Multiple.cs" />
     <Compile Include="2751_Sort_Number.cs" />
+    <Compile Include="2805_cutting_tree.cs" />
     <Compile Include="2920_Scale.cs" />
     <Compile Include="4949_Balanced_World.cs" />
     <Compile Include="9012_Parenthesis String.cs" />
+    <Compile Include="Binary_Search.cs" />
     <Compile Include="DFS_Algorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
