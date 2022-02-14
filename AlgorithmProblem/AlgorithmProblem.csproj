@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1003_Fibonacci.cs" />
     <Compile Include="1018_ChessBoard_Redraw.cs" />
     <Compile Include="10773_Zero.cs" />
     <Compile Include="10814_Sort_By_Age.cs" />
