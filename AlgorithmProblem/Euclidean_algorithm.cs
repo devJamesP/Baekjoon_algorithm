@@ -4,7 +4,7 @@ namespace AlgorithmProblem
 {
     class Euclidean_algorithm
     {
-        static void Main(string[] args)
+        static void euclideanAlgorithm()
         {
             StreamReader sr = new StreamReader(new BufferedStream(Console.OpenStandardInput()));
             StreamWriter sw = new StreamWriter(new BufferedStream(Console.OpenStandardOutput()));
