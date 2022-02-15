@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1003_Fibonacci.cs" />
+    <Compile Include="1012_organic_cabbage.cs" />
     <Compile Include="1018_ChessBoard_Redraw.cs" />
     <Compile Include="10773_Zero.cs" />
     <Compile Include="10814_Sort_By_Age.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="9012_Parenthesis String.cs" />
     <Compile Include="Binary_Search.cs" />
     <Compile Include="DFS_Algorithm.cs" />
+    <Compile Include="Euclidean_algorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
