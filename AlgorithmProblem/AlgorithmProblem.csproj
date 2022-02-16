@@ -59,6 +59,7 @@
     <Compile Include="1181_Word_Sort.cs" />
     <Compile Include="11866_Josephus.cs" />
     <Compile Include="1259_Pelindrome.cs" />
+    <Compile Include="1260_DFS_BFS.cs" />
     <Compile Include="1436_Movie_Director.cs" />
     <Compile Include="15829_Hashing.cs" />
     <Compile Include="1654_Cutting_LAN_Line.cs" />

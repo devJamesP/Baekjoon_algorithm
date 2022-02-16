@@ -36,12 +36,12 @@ namespace AlgorithmProblem
 
         static int GCD(int a, int b)
         {
-            int temp = 0;
+            int temp;
             while(b != 0)
             {
                 temp = a;
                 a = b;
-                b = a % b;
+                b = temp % b;
             }
             return a;
         }
