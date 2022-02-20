@@ -63,6 +63,7 @@
     <Compile Include="1389_Kevin_Bacon_6_Rule.cs" />
     <Compile Include="1436_Movie_Director.cs" />
     <Compile Include="1463_make_1.cs" />
+    <Compile Include="1541_lost_bracket.cs" />
     <Compile Include="15829_Hashing.cs" />
     <Compile Include="1654_Cutting_LAN_Line.cs" />
     <Compile Include="18111_MineCraft.cs" />
