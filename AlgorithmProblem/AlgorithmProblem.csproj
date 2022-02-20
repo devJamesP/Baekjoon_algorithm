@@ -65,6 +65,7 @@
     <Compile Include="1463_make_1.cs" />
     <Compile Include="1541_lost_bracket.cs" />
     <Compile Include="15829_Hashing.cs" />
+    <Compile Include="1620_pokemon master idasom.cs" />
     <Compile Include="1654_Cutting_LAN_Line.cs" />
     <Compile Include="18111_MineCraft.cs" />
     <Compile Include="1874_Stack_Sequence.cs" />
