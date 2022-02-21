@@ -5,17 +5,48 @@ namespace AlgorithmProblem
 {
     class _11650_Aligning_Coordinates
     {
-        struct SCoord
+        class Coord : IComparable<Coord>
         {
             int x;
             int y;
             public int X { 
                 get { return x; } 
-                set { x = value; }
             }
             public int Y {
                 get { return y; } 
-                set { y = value; }
+            }
+
+            public Coord(int x, int y)
+            {
+                this.x = x;
+                this.y = y;
+            }
+
+            public int CompareTo(Coord other)
+            {
+                if (X < other.X)
+                {
+                    return -1;
+                }
+                else if (X > other.X)
+                {
+                    return 1;
+                }
+                else
+                {
+                    if (Y < other.Y)
+                    {
+                        return -1;
+                    }
+                    else if (Y > other.Y)
+                    {
+                        return 1;
+                    }
+                    else
+                    {
+                        return 0;
+                    }
+                }
             }
         }
 
@@ -25,18 +56,18 @@ namespace AlgorithmProblem
             StreamWriter sw = new StreamWriter(Console.OpenStandardOutput());
 
             int nTestCase = int.Parse(sr.ReadLine());
-            SCoord[] coords = new SCoord[nTestCase];
+            Coord[] coords = new Coord[nTestCase];
             
             // input
             for(int i = 0; i < nTestCase; ++i)
             {
                 string[] strInputArr = sr.ReadLine().Split(' ');
-                coords[i].X = int.Parse(strInputArr[0]);
-                coords[i].Y = int.Parse(strInputArr[1]);
+                coords[i] = new Coord(int.Parse(strInputArr[0]), int.Parse(strInputArr[1]));
             }
 
             // sort
-            sortOfCoords(coords);
+            //sortOfCoords(coords);
+            Array.Sort(coords);
 
             // output
             for(int i = 0; i < nTestCase; ++i)
@@ -49,7 +80,7 @@ namespace AlgorithmProblem
             sw.Close();
         }
 
-        static void sortOfCoords(SCoord[] coords)
+        static void sortOfCoords(Coord[] coords)
         {
             // x값 정렬(퀵 정렬)
             quickSort(coords, 0, coords.Length-1, false);
@@ -83,7 +114,7 @@ namespace AlgorithmProblem
             }
         }
 
-        static void quickSort(SCoord[] coords, int left, int right, bool bSameFlag)
+        static void quickSort(Coord[] coords, int left, int right, bool bSameFlag)
         {
             if (bSameFlag == false)
             {
@@ -105,7 +136,7 @@ namespace AlgorithmProblem
             }
         }
 
-        static int partitionOfX(SCoord[] coords, int left, int right)
+        static int partitionOfX(Coord[] coords, int left, int right)
         {
             int pivot = coords[left].X;
             int low = left + 1;
@@ -126,7 +157,7 @@ namespace AlgorithmProblem
             return high;
         }
 
-        static int partitionOfY(SCoord[] coords, int left, int right)
+        static int partitionOfY(Coord[] coords, int left, int right)
         {
             int pivot = coords[left].Y;
             int low = left + 1;
@@ -147,9 +178,9 @@ namespace AlgorithmProblem
             return high;
         }
 
-        static void swap(SCoord[] coords, int i, int j)
+        static void swap(Coord[] coords, int i, int j)
         {
-            SCoord temp = coords[i];
+            Coord temp = coords[i];
             coords[i] = coords[j];
             coords[j] = temp;
         }
