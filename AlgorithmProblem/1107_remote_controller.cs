@@ -34,12 +34,12 @@ namespace AlgorithmProblem
                 } 
                 // N을 기준으로 +/-1씩 점진적으로 부서진 버튼의 숫자를 포함하고 있는지 체크
                 // 포함하고 있지 않다면 움직인 거리 + 해당 숫자의 길이
-                if (isContainBrokenNumber(N - iCount) == true)
+                if (isNotContainBrokenNumber(N - iCount) == true)
                 {
                     iCount += GetNumberLength(N - iCount);
                     break;
                 }
-                else if (isContainBrokenNumber(N + iCount) == true)
+                else if (isNotContainBrokenNumber(N + iCount) == true)
                 {
                     iCount += GetNumberLength(N + iCount);
                     break;
@@ -54,7 +54,7 @@ namespace AlgorithmProblem
 
             return;
         }
-        static bool isContainBrokenNumber(int n)
+        static bool isNotContainBrokenNumber(int n)
         {
             if (n < 0)
             {

@@ -69,6 +69,7 @@
     <Compile Include="1620_pokemon master idasom.cs" />
     <Compile Include="1654_Cutting_LAN_Line.cs" />
     <Compile Include="1676_factorial_0_count.cs" />
+    <Compile Include="1697_hide_and_seek.cs" />
     <Compile Include="18111_MineCraft.cs" />
     <Compile Include="1874_Stack_Sequence.cs" />
     <Compile Include="1920_Find_number.cs" />
