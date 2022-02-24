@@ -70,6 +70,7 @@
     <Compile Include="1654_Cutting_LAN_Line.cs" />
     <Compile Include="1676_factorial_0_count.cs" />
     <Compile Include="1697_hide_and_seek.cs" />
+    <Compile Include="1708_paper_count.cs" />
     <Compile Include="1764_fool.cs" />
     <Compile Include="18111_MineCraft.cs" />
     <Compile Include="1874_Stack_Sequence.cs" />
