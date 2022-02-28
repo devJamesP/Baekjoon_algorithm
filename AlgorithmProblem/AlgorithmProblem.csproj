@@ -76,6 +76,7 @@
     <Compile Include="1874_Stack_Sequence.cs" />
     <Compile Include="1920_Find_number.cs" />
     <Compile Include="1927_minimun_heap.cs" />
+    <Compile Include="1931_conference_room_assignment.cs" />
     <Compile Include="1966_Printer_Queue.cs" />
     <Compile Include="2108_Statistics.cs" />
     <Compile Include="2164_Card2.cs" />
@@ -90,8 +91,9 @@
     <Compile Include="Binary_Search.cs" />
     <Compile Include="DFS_Algorithm.cs" />
     <Compile Include="Euclidean_algorithm.cs" />
-    <None Include="Heap_Implemente.cs" />
+    <Compile Include="Heap_Implemente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
