@@ -81,6 +81,7 @@
     <Compile Include="1992_quad_tree.cs" />
     <Compile Include="2108_Statistics.cs" />
     <Compile Include="2164_Card2.cs" />
+    <Compile Include="2178_maze_exploration.cs" />
     <Compile Include="2475_Binomial Coefficient.cs" />
     <Compile Include="2475_NumberOfVerifications.cs" />
     <Compile Include="2609_Common_Factor_And_Multiple.cs" />
