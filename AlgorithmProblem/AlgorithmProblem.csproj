@@ -89,6 +89,7 @@
     <Compile Include="2606_virus.cs" />
     <Compile Include="2609_Common_Factor_And_Multiple.cs" />
     <Compile Include="2630_make_paper.cs" />
+    <Compile Include="2667_numbering.cs" />
     <Compile Include="2751_Sort_Number.cs" />
     <Compile Include="2805_cutting_tree.cs" />
     <Compile Include="2920_Scale.cs" />
