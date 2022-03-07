@@ -53,6 +53,7 @@
     <Compile Include="10828_Stack.cs" />
     <Compile Include="10845_Queue.cs" />
     <Compile Include="10866_Deck.cs" />
+    <Compile Include="10926_what.cs" />
     <Compile Include="10989_SortOfNumber.cs" />
     <Compile Include="1107_remote_controller.cs" />
     <Compile Include="11650_Aligning_Coordinates.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="2805_cutting_tree.cs" />
     <Compile Include="2920_Scale.cs" />
     <Compile Include="4949_Balanced_World.cs" />
+    <Compile Include="5430_AC.cs" />
     <Compile Include="9012_Parenthesis String.cs" />
     <Compile Include="Binary_Search.cs" />
     <Compile Include="DFS_Algorithm.cs" />
